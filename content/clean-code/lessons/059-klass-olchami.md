@@ -208,7 +208,7 @@ Bu ikki qarash qarama-qarshi ko'rinadi, lekin ular bir-birini to'ldiradi:
 - Martin mezoni (mas'uliyatlar, kim o'zgartiradi) klassni **qayerdan bo'lish** kerakligini aytadi.
 - Ousterhout mezoni (chuqurlik, interfeys narxi) **qachon to'xtash** kerakligini aytadi.
 
-Katta, lekin bitta aktorga tegishli va kichik interfeysga ega klass ko'pincha yaxshi. Kichik, lekin pass-through metodlarga to'la va chaqiruvchi ularni ma'lum tartibda birlashtirishi kerak bo'lgan klasslar ko'pincha yomon. 2025-yildagi Ousterhout va Martin munozarasida ham bu masala bo'yicha to'liq kelishuv yo'q edi. Halol xulosa: ikkala xavf ham real, va sizning kod bazangizda qaysi biri ustun ekanini kuzating.
+Katta, lekin bitta aktorga tegishli va kichik interfeysga ega klass ko'pincha yaxshi. Kichik, lekin pass-through metodlarga to'la va chaqiruvchi ularni ma'lum tartibda birlashtirishi kerak bo'lgan klasslar ko'pincha yomon. 2024-2025 yillardagi Ousterhout va Martin munozarasida ham bu masala bo'yicha to'liq kelishuv yo'q edi. Halol xulosa: ikkala xavf ham real, va sizning kod bazangizda qaysi biri ustun ekanini kuzating.
 
 ### God object alomatlari
 

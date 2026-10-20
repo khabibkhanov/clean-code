@@ -2,7 +2,7 @@
 n: 65
 slug: tdd-tanqidi
 title: "TDD tanqidi va muqobillar"
-summary: "TDD haqida eng jiddiy bahs 2025 yilda John Ousterhout va Robert Martin o'rtasida bo'lib o'tdi. Bu darsda Ousterhoutning tanqidini, Martinning javoblarini, ular kelishgan nuqtalarni va 'bundling' muqobilini adolatli ko'rib chiqamiz, keyin har birini qachon tanlashni aniqlaymiz."
+summary: "TDD haqidagi eng batafsil bahslardan biri 2024-2025 yillarda John Ousterhout va Robert Martin o'rtasida bo'lib o'tdi. Bu darsda Ousterhoutning tanqidini, Martinning javoblarini, ular kelishgan nuqtalarni va 'bundling' muqobilini adolatli ko'rib chiqamiz, keyin har birini qachon tanlashni aniqlaymiz."
 duration: 40
 sources:
   - id: aposd-vs-cc
@@ -200,7 +200,7 @@ task:
 
 TDD atrofidagi bahs ko'pincha ikki qutbda o'tadi. Bir tomonda "TDD qilmasang, professional emassan" degan pozitsiya. Ikkinchi tomonda "TDD - vaqt isrofi, real loyihada hech kim qilmaydi" degan pozitsiya. Ikkalasi ham foydasiz: birinchisi jamoani tushunilmagan ritualga majburlaydi, ikkinchisi esa testlarni umuman e'tiborsiz qoldirishga bahona beradi.
 
-Haqiqiy savol nozikroq: **TDD qaysi narsani yaxshilaydi, qaysi narsani yomonlashtirishi mumkin, va xuddi shu foydani boshqa yo'l bilan olish mumkinmi?** 2025 yilda John Ousterhout (*A Philosophy of Software Design* muallifi) va Robert Martin (*Clean Code* muallifi) bu savolni yozma munozarada muhokama qilishdi va uni GitHub'da ochiq e'lon qilishdi. Bu munozara TDD haqidagi eng tafsilotli va eng xolis manbalardan biri, chunki ikkala tomon ham bir-birining argumentlariga to'g'ridan-to'g'ri javob beradi.
+Haqiqiy savol nozikroq: **TDD qaysi narsani yaxshilaydi, qaysi narsani yomonlashtirishi mumkin, va xuddi shu foydani boshqa yo'l bilan olish mumkinmi?** 2024 yil sentyabridan 2025 yil fevraligacha John Ousterhout (*A Philosophy of Software Design* muallifi) va Robert Martin (*Clean Code* muallifi) bu savolni yozma munozarada muhokama qilishdi va uni GitHub'da ochiq e'lon qilishdi. Bu munozara TDD haqidagi eng tafsilotli va eng xolis manbalardan biri, chunki ikkala tomon ham bir-birining argumentlariga to'g'ridan-to'g'ri javob beradi.
 
 64-darsda TDD mexanikasini ko'rdik. Bu darsda uning tanqidini va muqobilini ko'ramiz.
 

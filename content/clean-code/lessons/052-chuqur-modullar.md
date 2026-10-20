@@ -54,7 +54,7 @@ quiz:
     options:
       - "A har doim yaxshiroq, chunki metodlar qisqa"
       - "B har doim yaxshiroq, chunki interfeys kichik"
-      - "Faqat qatorlar soniga qarab xulosa chiqarib bo'lmaydi"
+      - "Ularni solishtirib bo'lmaydi: chuqurlik faqat runtime profiling bilan o'lchanadi"
       - "Chaqiruvchi uchun B kamroq bilim talab qiladi va bu chuqurlik belgisi, lekin B ichidagi 300 qator ham o'qiluvchan tashkil etilgan bo'lishi kerak"
     answer: 3
     explain: "Chuqurlik interfeys narxi va funksionallik nisbati. B chaqiruvchidan kam bilim talab qiladi. Lekin bu ichki tuzilishni e'tiborsiz qoldirishga ruxsat emas: implementatsiya ham o'qiladigan bo'lishi kerak. Javob B'ni avtomatik oqlamaydi, uni chuqurlik nuqtai nazaridan baholaydi."
@@ -189,7 +189,7 @@ Sayoz misol sifatida u Java'ning eski I/O kutubxonasini keltiradi: faylni buffer
 
 Ousterhout "klasslar kichik bo'lishi kerak" degan keng tarqalgan maslahatni tanqid qiladi. Bu maslahat o'z-o'zidan qo'llanganda ko'plab sayoz klasslar paydo bo'ladi. Har biri alohida oddiy, lekin har birining interfeysi bor, ular bir-biriga bog'langan va tizimni tushunish uchun hammasini birlashtirish kerak. U buni **classitis** deb ataydi.
 
-Bu Robert Martin bilan munozaraning markaziy nuqtalaridan biri (10, 21 va 59-darslar). Martin *Clean Code*da funksiya va klasslarni juda kichik qilishni, Ousterhout esa chuqurlikni asosiy mezon qilishni tavsiya qiladi. Ikki muallif 2025-yildagi ochiq munozarasida bu borada to'liq kelisha olmagan. Halol xulosa: ikkalasi ham murakkablikka qarshi, lekin Martin uzun funksiyalar xavfini, Ousterhout esa haddan tashqari bo'linish xavfini ko'proq ta'kidlaydi. Sizning loyihangizda qaysi xavf ko'proq uchrayotganiga qarang.
+Bu Robert Martin bilan munozaraning markaziy nuqtalaridan biri (10, 21 va 59-darslar). Martin *Clean Code*da funksiya va klasslarni juda kichik qilishni, Ousterhout esa chuqurlikni asosiy mezon qilishni tavsiya qiladi. Ikki muallif 2024-2025 yillardagi ochiq munozarasida bu borada to'liq kelisha olmagan. Halol xulosa: ikkalasi ham murakkablikka qarshi, lekin Martin uzun funksiyalar xavfini, Ousterhout esa haddan tashqari bo'linish xavfini ko'proq ta'kidlaydi. Sizning loyihangizda qaysi xavf ko'proq uchrayotganiga qarang.
 
 ### Pass-through metodlar va dekoratorlar
 
