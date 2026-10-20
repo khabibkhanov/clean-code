@@ -215,7 +215,7 @@ Ular bir-birini to'ldiradi. Strangler Fig ichida har bir qismni ko'chirish uchun
 
 Metafora tabiatdan. Fowler 2001 yilda Avstraliyaning Kvinslend shtatidagi tropik o'rmonlarda strangler fig (bo'g'uvchi anjir) daraxtlarini ko'radi. Bu o'simlik boshqa daraxtning yuqori shoxlarida unib chiqadi, ildizlarini asta-sekin yerga tushiradi va yillar davomida egasini o'rab, oxirida uning o'rnini egallaydi. Fowler bunda hamkasblari eski tizimlarni modernizatsiya qilish usuliga o'xshashlikni ko'radi.
 
-Maqolaning asl nomi "StranglerApplication" edi. Keyinchalik Fowler uni "Strangler Fig Application" ga o'zgartirdi: odamlar metaforaning botanik kelib chiqishini unutib, faqat "strangler" so'zini ishlatayotgan edi va bu so'zning zo'ravonlik ohangi bor edi. Maqola 2024 yilda sezilarli darajada qayta yozilgan.
+Maqolaning asl nomi "StranglerApplication" edi. Keyinchalik Fowler uni "Strangler Fig Application" ga o'zgartirdi: odamlar metaforaning botanik kelib chiqishini unutib, faqat "strangler" so'zini ishlatayotgan edi va bu so'zning zo'ravonlik ohangi bor edi. Maqolaning hozirgi versiyasi 2024 yilda yangilangan.
 
 Maqoladagi asosiy g'oyalar:
 

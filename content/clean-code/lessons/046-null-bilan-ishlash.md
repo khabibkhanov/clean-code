@@ -215,7 +215,7 @@ Uning taklif qiladigan alternativalari:
 
 ### Null uzatmang
 
-Ikkinchi qoida yanada qat'iyroq: argument sifatida null uzatish null qaytarishdan ham yomonroq. Martin buni nuqtalar orasidagi masofani hisoblaydigan metod misolida ko'rsatadi: kimdir null uzatsa, metod ichida nima qilish kerak? Xato tashlash, assert qilish - bularning hech biri muammoni hal qilmaydi, faqat qachon va qanday xato chiqishini o'zgartiradi. Uning xulosasi: aksariyat tillarda tasodifan uzatilgan null bilan yaxshi ishlashning usuli yo'q, shuning uchun eng oqilona yondashuv - null uzatishni sukut bo'yicha taqiqlash.
+Ikkinchi qoida yanada qat'iyroq: argument sifatida null uzatish null qaytarishdan ham yomonroq. Martin buni ikki nuqta (`Point`) qabul qilib, ular asosida hisob qiladigan metod misolida ko'rsatadi: kimdir null uzatsa, metod ichida nima qilish kerak? Xato tashlash, assert qilish - bularning hech biri muammoni hal qilmaydi, faqat qachon va qanday xato chiqishini o'zgartiradi. Uning xulosasi: aksariyat tillarda tasodifan uzatilgan null bilan yaxshi ishlashning usuli yo'q, shuning uchun eng oqilona yondashuv - null uzatishni sukut bo'yicha taqiqlash.
 
 Martin bu qoidalarni Java kontekstida yozgan, u yerda har qanday referens null bo'lishi mumkin edi. TypeScript'da `strictNullChecks` bu vaziyatni tubdan o'zgartiradi, va keyingi bo'lim aynan shu haqida.
 

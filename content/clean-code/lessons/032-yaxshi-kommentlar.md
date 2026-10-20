@@ -260,7 +260,7 @@ TODO'ning asosiy muammosi - u egasiz va muddatsiz yashaydi. Amaliy qoidalar:
 
 1. **Tiketga bog'lang.** `// TODO(FLEET-412): ...` formatida. Endi TODO tracker'da ko'rinadi va prioritetlanadi.
 2. **Nima va nega yozing.** `// TODO: fix` hech narsa demaydi. "Takror paketlarni filtrlash, hozir dublikat trek nuqtalari hosil bo'ladi" - bu ish.
-3. **Lint bilan nazorat qiling.** ESLint'ning `no-warning-comments` qoidasi TODO/FIXME'larni topadi. Uni shunday sozlash mumkinki, tiketsiz TODO ogohlantirish bersin (37-dars).
+3. **Lint bilan nazorat qiling.** ESLint'ning `no-warning-comments` qoidasi TODO/FIXME'larni topadi. U belgilangan so'zlarni (`todo`, `fixme`) topadi, lekin tiket raqami bor-yo'qligini tekshira olmaydi; buning uchun maxsus qoida yoki CI'dagi oddiy skript kerak (37-dars).
 4. **Muntazam ko'rib chiqing.** Har sprint yoki har oy `grep -rn "TODO"` natijasini ko'rib chiqing. Bajarilgani o'chiriladi, keraksizi o'chiriladi.
 
 `FIXME` va `HACK` kabi belgilar ham ishlatiladi. Muhimi - jamoada ularning ma'nosi kelishilgan bo'lishi. Masalan: `TODO` - kelajakdagi yaxshilanish, `FIXME` - ma'lum xato, `HACK` - ongli vaqtinchalik yechim.

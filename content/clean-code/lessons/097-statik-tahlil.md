@@ -211,7 +211,7 @@ Sonar'ning tegishli qoidasi (S3776) standart holatda 15 chegarasini ishlatadi. B
 Ikkala metrika ham bitta funksiya ichini ko'radi. Ular quyidagilarni ko'rmaydi:
 
 - **Nomlar.** `x1`, `tmp`, `data2` bilan yozilgan funksiya past ball olishi mumkin.
-- **Funksiyalar orasidagi sakrashlar.** Ousterhout 21-darsda ko'rgan "sayoz modullar zanjiri" har bir bo'lakda past ball beradi, lekin umumiy kognitiv yuk yuqori.
+- **Funksiyalar orasidagi sakrashlar.** 21-darsda ko'rgan Ousterhout tanqid qiladigan "sayoz modullar zanjiri" har bir bo'lakda past ball beradi, lekin umumiy kognitiv yuk yuqori.
 - **Semantik murakkablik.** Bitta qatorli regex yoki bit operatsiyasi 0 ball olishi va tushunish uchun 10 daqiqa talab qilishi mumkin.
 - **Coupling.** Funksiya 15 ta global holatga tayanishi mumkin va bu complexity'da ko'rinmaydi.
 
@@ -260,10 +260,10 @@ const MIN_DRIVER_AGE = 21;
 const DEPOSIT_REQUIRED_AFTER_DAYS = 3;
 
 export function validateBooking(b: Booking, blacklist: Set<string>): string[] {
-  if (b.days <= 0) return ["Kunlar soni musbat bo'lishi kerak"];   // +1
-
   const errors: string[] = [];
-  if (b.driverAge < MIN_DRIVER_AGE) {                                // +1
+  if (b.days <= 0) {                                                 // +1
+    errors.push("Kunlar soni musbat bo'lishi kerak");
+  } else if (b.driverAge < MIN_DRIVER_AGE) {                         // +1
     errors.push(`Haydovchi kamida ${MIN_DRIVER_AGE} yoshda bo'lishi kerak`);
   } else if (!b.hasDeposit && b.days > DEPOSIT_REQUIRED_AFTER_DAYS) { // +1, && +1
     errors.push(`${DEPOSIT_REQUIRED_AFTER_DAYS} kundan ortiq ijara uchun depozit kerak`);
@@ -276,7 +276,7 @@ export function validateBooking(b: Booking, blacklist: Set<string>): string[] {
 // Cognitive complexity: 5. Cyclomatic: 6 (o'zgarmadi).
 ```
 
-Cyclomatic o'zgarmadi, chunki qaror nuqtalari soni bir xil: biz hech qanday mantiqni olib tashlamadik. Cognitive ikki baravar kamaydi, chunki guard clause (26-dars) va `else if` nesting'ni yo'qotdi. Bu metrika inson sezgisiga mos keladigan holat: ikkinchi versiyani yuqoridan pastga bir marta o'qib tushunish mumkin.
+Cyclomatic o'zgarmadi, chunki qaror nuqtalari soni bir xil: biz hech qanday mantiqni olib tashlamadik. Cognitive ikki baravar kamaydi, chunki shartlarni tekis `else if` zanjiriga aylantirish (26-darsdagi ichma-ichlikni kamaytirish g'oyasi) nesting'ni yo'qotdi. Xatti-harakat ham saqlandi: kunlar noto'g'ri bo'lsa ham qora ro'yxat tekshiruvi bajariladi, xuddi asl versiyadagidek. Bu metrika inson sezgisiga mos keladigan holat: ikkinchi versiyani yuqoridan pastga bir marta o'qib tushunish mumkin.
 
 ## Qachon qo'llamaslik kerak
 

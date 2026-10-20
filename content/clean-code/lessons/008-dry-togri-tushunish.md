@@ -180,7 +180,7 @@ AHA va DRY zid emas. DRY qachon takror haqiqiy muammo ekanini aytadi (bir xil bi
 
 ### "Goodbye, Clean Code"
 
-Dan Abramov 2020 yil yanvaridagi qisqa maqolasida shaxsiy hikoyani aytib beradi. Hamkasbi grafik muharrirda shakllarning o'lchamini o'zgartirish tutqichlarini (resize handles) yozgan: har bir shakl (to'rtburchak, oval va boshqalar) uchun alohida metodlar, ichida takrorlangan matematik hisob-kitoblar. Abramov kechqurun bu kodni qayta yozadi: yo'nalishlar va shakllarni ajratib, ularni kompozitsiya qiladi, kod hajmi taxminan ikki baravar qisqaradi, takror yo'qoladi. Hamkasbi bilan gaplashmasdan merge qiladi. Ertasi kuni boshlig'i uni yakkama-yakka suhbatga chaqirib, o'zgarishni qaytarishni so'raydi.
+Dan Abramov 2020 yil yanvaridagi qisqa maqolasida shaxsiy hikoyani aytib beradi. Hamkasbi grafik muharrirda shakllarning o'lchamini o'zgartirish tutqichlarini (resize handles) yozgan: har bir shakl (to'rtburchak, oval va boshqalar) uchun alohida metodlar, ichida takrorlangan matematik hisob-kitoblar. Abramov o'sha kuni kechasi bu kodni qayta yozadi: yo'nalishlar va shakllarni ajratib, ularni kompozitsiya qiladi, kod hajmi taxminan ikki baravar qisqaradi, takror yo'qoladi. Hamkasbi bilan gaplashmasdan uni asosiy branch'ga yuboradi. Ertasi kuni boshlig'i uni yakkama-yakka suhbatga chaqirib, o'zgarishni qaytarishni so'raydi.
 
 Abramov xulosalari:
 

@@ -2,7 +2,7 @@
 n: 21
 slug: funksiya-olchami
 title: "Funksiya o'lchami: kichik va chuqur - ikki maktab"
-summary: "Martin funksiyalarni juda kichik qilishni tavsiya qiladi, Ousterhout esa interfeysi sodda, ichi boy \"chuqur\" funksiyalarni afzal ko'radi. Bu darsda ikkala maktabni, ularning 2025-yilgi ochiq munozarasini va PrimeGenerator epizodini ko'rib, amaliy mezon chiqaramiz."
+summary: "Martin funksiyalarni juda kichik qilishni tavsiya qiladi, Ousterhout esa interfeysi sodda, ichi boy \"chuqur\" funksiyalarni afzal ko'radi. Bu darsda ikkala maktabni, ularning 2024-2025 yillardagi ochiq munozarasini va PrimeGenerator epizodini ko'rib, amaliy mezon chiqaramiz."
 duration: 40
 sources:
   - id: cc1
@@ -168,7 +168,7 @@ John Ousterhout *A Philosophy of Software Design* kitobida boshqa o'lchov taklif
 
 Ousterhoutning xulosasi: funksiyani bo'lish o'z-o'zidan yaxshi emas. Har bir yangi funksiya yangi interfeys qo'shadi va bu interfeys o'rganilishi kerak. Agar bo'lish natijasida har bir bo'lak orqasidagi yashirilgan ish kamaysa va interfeyslar ko'paysa, umumiy murakkablik oshadi. U ayniqsa **entanglement** (kitobda "conjoined", ya'ni bir-biriga yopishgan) deb ataydigan holatdan ogohlantiradi: bitta funksiyani tushunish uchun boshqasining ichini o'qish kerak bo'lsa, ular aslida bitta funksiya bo'lishi kerak edi.
 
-## Chuqurroq: 2025-yilgi munozara
+## Chuqurroq: 2024-2025 yillardagi munozara
 
 Ousterhout va Martin bu masalani ochiq yozma munozarada muhokama qilishdi (`aposd-vs-cc` manbasi, GitHub'da ochiq). Bu kamdan-kam uchraydigan holat: ikki muallif bitta kod ustida o'z fikrlarini to'g'ridan-to'g'ri solishtiradi.
 
@@ -276,6 +276,6 @@ Ikkala maktabning ham ko'r-ko'rona qo'llanishi zarar keltiradi:
 
 - Martin kichik funksiyalarni, Ousterhout chuqur modullarni afzal ko'radi. Ikkalasi ham murakkablikni kamaytirishni maqsad qiladi, lekin turli xatolarni ko'proq xavfli deb hisoblaydi.
 - Asosiy savol uzunlik emas: funksiyani tushunish uchun boshqa funksiyaning ichini o'qish kerakmi va uning interfeysi yashirgan ishidan soddami.
-- 2025-yilgi munozarada ikkala muallif haddan tashqari bo'lish mumkinligiga va PrimeGenerator'ning bo'linishi muammoli ekaniga kelishdi.
+- 2024-2025 yillardagi munozarada ikkala muallif haddan tashqari bo'lish mumkinligiga va PrimeGenerator'ning bo'linishi muammoli ekaniga kelishdi.
 - Nomi so'roqqa o'xshagan, lekin holatni o'zgartiradigan kichik funksiya uzun funksiyadan xavfliroq.
 - Uzunlikni review signali sifatida ishlating, qaror esa entanglement, interfeys narxi va mustaqil ma'no asosida qabul qilinsin.

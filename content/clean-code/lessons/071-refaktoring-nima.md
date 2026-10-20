@@ -213,7 +213,7 @@ Signal boshqa: kod chalkash emas, lekin tushunarsiz. Siz uni o'qib, nima qilishi
 
 ### Preparatory refactoring
 
-Fowler buni eng muhim usul deb hisoblaydi. Yangi talab keldi, lekin mavjud tuzilma unga mos emas. Talabni hozirgi shaklga majburan tiqish o'rniga, avval kodni talab oson tushadigan shaklga keltirasiz, keyin talabni qo'shasiz. Maqolada bo'yashga tayyorgarlik bilan solishtiriladi: devorni tozalash va lenta yopishtirish bo'yashning o'zi emas, lekin bo'yashni tezlashtiradi va natijani uzoq saqlaydi. Kent Beckning mashhur iborasi ham shu g'oya haqida: avval o'zgarishni oson qiling, keyin oson o'zgarishni qiling.
+Muallifning bahosiga ko'ra, bu kundalik ishdagi eng foydali usullardan biri. Yangi talab keldi, lekin mavjud tuzilma unga mos emas. Talabni hozirgi shaklga majburan tiqish o'rniga, avval kodni talab oson tushadigan shaklga keltirasiz, keyin talabni qo'shasiz. Buni bo'yashga tayyorgarlikka o'xshatish mumkin: devorni tozalash va lenta yopishtirish bo'yashning o'zi emas, lekin bo'yashni tezlashtiradi va natijani uzoq saqlaydi. Kent Beckning mashhur iborasi ham shu g'oya haqida: avval o'zgarishni oson qiling, keyin oson o'zgarishni qiling.
 
 ### Planned refactoring
 

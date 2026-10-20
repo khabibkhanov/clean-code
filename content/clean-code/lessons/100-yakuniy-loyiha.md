@@ -347,7 +347,7 @@ Bu bosqichning natijasi - kod emas, ro'yxat. Va eng muhim savol: yangi talablar 
 
 ### 1-bosqich: seam'lar va characterization testlar (79, 66, 68-darslar)
 
-Servisni testlash uchun uchta bog'liqlikni boshqarish kerak: vaqt (`new Date()`), Telegram (`axios`), ma'lumotlar bazasi (Prisma). NestJS'da eng tabiiy seam - constructor injection (57-dars). Birinchi o'zgarish minimal: `axios.post` ni `AlertNotifier` ga, `new Date()` ni `Clock` ga o'rash. Bu ham struktura o'zgarishi, lekin u shunchalik mexanikki, uni testsiz qilish xavfi past. Feathers buni ehtiyotkor, "testsiz refaktoring" deb ataydi va uni faqat shu maqsadda, minimal hajmda qilishni maslahat beradi.
+Servisni testlash uchun uchta bog'liqlikni boshqarish kerak: vaqt (`new Date()`), Telegram (`axios`), ma'lumotlar bazasi (Prisma). NestJS'da eng tabiiy seam - constructor injection (57-dars). Birinchi o'zgarish minimal: `axios.post` ni `AlertNotifier` ga, `new Date()` ni `Clock` ga o'rash. Bu ham struktura o'zgarishi, lekin u shunchalik mexanikki, uni testsiz qilish xavfi past. Feathers testsiz qilinadigan bunday dastlabki o'zgarishlarni juda ehtiyotkor, mexanik va faqat test qo'yish maqsadida, minimal hajmda qilishni maslahat beradi.
 
 Prisma uchun mock emas, Testcontainers'dagi haqiqiy PostgreSQL afzal: so'rovlar to'g'riligini faqat haqiqiy baza ko'rsatadi (68-dars).
 

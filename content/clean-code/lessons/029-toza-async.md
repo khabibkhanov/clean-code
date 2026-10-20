@@ -202,7 +202,7 @@ MDN'ga ko'ra `AbortController` - bitta yoki bir nechta asinxron operatsiyani bek
 - **`signal.aborted`** va **`signal.reason`** - signal holati va sababi.
 - **`signal.throwIfAborted()`** - signal bekor bo'lgan bo'lsa, sababni tashlaydi. Uzoq sikllarda yoki qadamlar orasida tekshirish uchun qulay.
 - **`AbortSignal.timeout(ms)`** - belgilangan vaqtdan keyin avtomatik bekor bo'ladigan signal. Bunda `fetch` `TimeoutError` bilan reject qiladi, bu foydalanuvchi bekor qilganini vaqt tugaganidan ajratish imkonini beradi.
-- **`AbortSignal.any([a, b])`** - berilgan signallardan istalgani bekor bo'lganda bekor bo'ladigan signal. MDN ta'kidlaganidek, bunda yakuniy abort timeout'dan kelganini signalning o'zidan bilib bo'lmaydi.
+- **`AbortSignal.any([a, b])`** - berilgan signallardan istalgani bekor bo'lganda bekor bo'ladigan signal. MDN'ga ko'ra, birlashgan signalning `reason`i birinchi bekor bo'lgan signalning sababi bo'ladi, shuning uchun `TimeoutError` va `AbortError`ni xato nomi orqali ajratish mumkin.
 
 Signal bir martalik: bekor bo'lgandan keyin u shu holatda qoladi, shuning uchun har bir operatsiya (yoki har bir React effekt ishga tushishi) uchun yangi controller yaratiladi. Node.js'da `AbortController` global va `fetch`, `fs/promises`, `timers/promises`, `child_process` kabi ko'p API signal qabul qiladi; ko'plab DB drayverlari va HTTP klientlar ham buni qo'llab-quvvatlaydi.
 

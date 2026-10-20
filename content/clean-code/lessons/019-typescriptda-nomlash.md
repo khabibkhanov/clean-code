@@ -198,10 +198,13 @@ Quyidagi ESLint flat config bo'lagi yuqoridagi konvensiyalarning minimal to'plam
 
 ```ts
 // eslint.config.mjs (bo'lagi)
+import { defineConfig } from "eslint/config";
 import tseslint from "typescript-eslint";
 
-export default tseslint.config({
+export default defineConfig({
   files: ["**/*.ts", "**/*.tsx"],
+  // Parser va @typescript-eslint plaginini ro'yxatdan o'tkazadi.
+  extends: [tseslint.configs.base],
   rules: {
     "@typescript-eslint/naming-convention": [
       "error",

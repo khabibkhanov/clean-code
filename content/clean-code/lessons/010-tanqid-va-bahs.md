@@ -178,7 +178,7 @@ John Ousterhout va Robert Martin 2024 yil sentyabridan 2025 yil fevraligacha onl
 
 **PrimeGenerator.** Munozaraning eng qiziqarli qismi - Clean Code'dagi tub sonlar generatori misolini ikkala muallif ham qayta yozgani. Ikkalasi ham kitobdagi versiyaning ichki dekompozitsiyasi muammoli ekaniga qo'shilgan (Martin uni production kodi emas, o'quv misoli deb tushuntiradi). Ousterhout bitta, ko'p kommentli metod yozgan. Martin o'z versiyasini to'rtta metod va kam komment bilan yozgan. Keyin qiziq voqea bo'lgan: Ousterhout Martin versiyasini o'lchab, u ancha sekinroq ekanini (taxminan 3-4 baravar) topgan, chunki tuzilma o'zgarishi erta chiqishni yo'qotgan. Martin buni tuzatgan. Bu kichik epizod muhim saboq beradi: "toza" qayta yozish xatti-harakatni (bu yerda - performance'ni) jimgina o'zgartirishi mumkin, va ikkala tajribali muallif ham bir-birining kodida xato topgan.
 
-**TDD.** Ousterhout unit testlarning kuchli tarafdori, lekin TDD'ning emas. U TDD'ni haddan tashqari taktik deb biladi (5-dars) va muqobil sifatida "bundling" ni taklif qiladi: avval dizayn, keyin kattaroq kod bo'lagi, keyin unit testlar. Martin TDD'ning uch qonuni va red-green-refactor siklini tushuntirib, intizomli amaliyotchilar uchun TDD dizaynni to'xtatmasligini aytadi. Ikkalasi testlar beradigan eng katta foyda - qo'rquvsiz refaktoring ekaniga qo'shiladi. Bu bahs 65-darsda davom etadi.
+**TDD.** Ousterhout unit testlarning kuchli tarafdori, lekin TDD'ning emas. U TDD'ni haddan tashqari taktik deb biladi (5-dars) va muqobil sifatida "bundling" ni (bu nomni munozarada Martin taklif qilgan, Ousterhout qabul qilgan) qo'llaydi: avval dizayn, keyin kattaroq kod bo'lagi, keyin unit testlar. Martin TDD'ning uch qonuni va red-green-refactor siklini tushuntirib, intizomli amaliyotchilar uchun TDD dizaynni to'xtatmasligini aytadi. Ikkalasi testlar beradigan eng katta foyda - qo'rquvsiz refaktoring ekaniga qo'shiladi. Bu bahs 65-darsda davom etadi.
 
 ### qntm: "It's probably time to stop recommending Clean Code"
 
@@ -204,7 +204,7 @@ Casey Muratori (o'yin va past darajali tizim dasturchisi) 2023 yil fevralida per
 - Burchaklar sonini qo'shganda jadval versiyasi taxminan **15 baravar** tez.
 - AVX bilan qo'shimcha optimizatsiya - taxminan 20-25 baravar.
 
-Muratori bu farqlarni bir necha yillik apparat taraqqiyoti bilan solishtiradi va xulosa qiladi: struktura qoidalaridan biri (oddiy ma'nodagi DRY) oqilona, qolganlari (polimorfizm switch o'rniga, ichki tuzilmani bilmaslik, kichik funksiyalar, bitta ish) performance'ga zarar. U qo'llab-quvvatlanuvchanlik maqsadlari to'g'ri, lekin bu qoidalar unga erishishning to'g'ri yo'li emas deb hisoblaydi. U kichik funksiyalar va "bitta ish" qoidalarini bu misolda haqiqatan sinamaganini o'zi tan oladi.
+Muratori bu farqlarni bir necha yillik apparat taraqqiyoti bilan solishtiradi va xulosa qiladi: struktura qoidalaridan biri (oddiy ma'nodagi DRY) oqilona, qolganlari (polimorfizm switch o'rniga, ichki tuzilmani bilmaslik, kichik funksiyalar, bitta ish) performance'ga zarar. U qo'llab-quvvatlanuvchanlik maqsadlari to'g'ri, lekin bu qoidalar unga erishishning to'g'ri yo'li emas deb hisoblaydi. U birinchi misolda "funksiyalar kichik bo'lsin" va "bitta ish" qoidalari kam ishlatilganini o'zi tan oladi va ularni to'g'ridan-to'g'ri sinash uchun burchaklar sonini hisoblashni qo'shadi.
 
 Tanqidni to'g'ri baholash:
 

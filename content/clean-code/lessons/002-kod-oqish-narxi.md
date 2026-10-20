@@ -165,7 +165,7 @@ Bu narx ko'rinmaydi. U sprint hisobotida "o'qish" degan qator sifatida chiqmaydi
 
 ## Asosiy g'oya
 
-Robert Martin *Clean Code* kitobining birinchi bobida dasturchi ishini kuzatib, muhim xulosaga keladi: yangi kod yozayotganda ham biz vaqtning ko'p qismini mavjud kodni o'qishga sarflaymiz. U bu nisbatni o'ndan birdan ancha yuqori deb baholaydi. Bu o'lchangan statistika emas, muallifning tajribaviy bahosi, va aniq raqam munozarali. Lekin yo'nalish shubhasiz: yangi qatorni qo'shishdan oldin siz atrofdagi kodni, chaqiruvchilarni va tiplarni o'qiysiz. Demak, **o'qishni arzonlashtirish yozishni ham arzonlashtiradi**.
+Robert Martin *Clean Code* kitobining birinchi bobida dasturchi ishini kuzatib, muhim xulosaga keladi: yangi kod yozayotganda ham biz vaqtning ko'p qismini mavjud kodni o'qishga sarflaymiz. U o'qish va yozish nisbatini 10 ga 1 dan ancha yuqori deb baholaydi. Bu o'lchangan statistika emas, muallifning tajribaviy bahosi, va aniq raqam munozarali. Lekin yo'nalish shubhasiz: yangi qatorni qo'shishdan oldin siz atrofdagi kodni, chaqiruvchilarni va tiplarni o'qiysiz. Demak, **o'qishni arzonlashtirish yozishni ham arzonlashtiradi**.
 
 John Ousterhout *A Philosophy of Software Design* kitobining ikkinchi bobida bu narxning tuzilishini aniqroq beradi. U murakkablikning uchta belgisini ajratadi:
 

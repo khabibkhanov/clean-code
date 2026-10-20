@@ -179,7 +179,7 @@ Muhim kuzatish: **cyclomatic complexity ichma-ichlikni sezmaydi**. To'rtta ketma
 
 ### Sonar: cognitive complexity
 
-SonarSource'dan G. Ann Campbell 2018-yilgi white paper'da **cognitive complexity** metrikasini taklif qilgan. Uning maqsadi - matematik model emas, balki kodni tushunish qiyinligini o'lchash. Asosiy qoidalar (soddalashtirilgan):
+SonarSource'dan G. Ann Campbell o'z white paper'ida **cognitive complexity** metrikasini taklif qilgan. Uning maqsadi - matematik model emas, balki kodni tushunish qiyinligini o'lchash. Asosiy qoidalar (soddalashtirilgan):
 
 1. **Chiziqli oqimning har bir uzilishi** uchun +1: `if`, `else if`, `else`, ternary, `switch`, sikllar, `catch`, label'li `break`/`continue`, va mantiqiy operatorlarning har bir ketma-ketligi.
 2. **Ichma-ichlik uchun qo'shimcha**: boshqa struktura ichida joylashgan `if`, sikl, `switch`, `catch` har bir ichma-ichlik darajasi uchun qo'shimcha ball oladi.

@@ -8,7 +8,7 @@ sources:
   - id: cc1
     note: "1-bob \"Clean Code\": Stroustrup, Booch, Thomas, Feathers, Jeffries, Cunningham ta'riflari va \"We Are Authors\" bo'limi"
   - id: cc2
-    note: "1-bob \"Clean Code\" (qayta yozilgan nashr) va 3-bob \"First Principles\""
+    note: "Qayta yozilgan nashrdagi toza kod ta'rifi va asosiy tamoyillar haqidagi boshlang'ich boblar"
   - id: aposd
     note: "2-bob \"The Nature of Complexity\": murakkablikning ta'rifi"
   - id: refactoring
@@ -116,7 +116,7 @@ task:
 
 Ko'p jamoalarda kod ikki marta yoziladi. Birinchi marta - u ishlashi uchun. Ikkinchi marta - u bilan ishlash imkonsiz bo'lib qolganda, "noldan qayta yozamiz" degan qaror bilan. Ikkinchi yozish odatda birinchisidan qimmatga tushadi va ko'pincha xuddi shu muammoga qaytib keladi.
 
-Sabab oddiy: dasturning qiymati faqat bugungi xatti-harakatida emas. Robert Martin buni dasturning ikki qiymati deb ataydi: **xatti-harakat** (dastur hozir nima qiladi) va **struktura** (uni ertaga qanchalik oson o'zgartirish mumkin). Biznes talablari doimo o'zgaradi, demak ikkinchi qiymat vaqt o'tishi bilan birinchisidan muhimroq bo'lib boradi. "Ishlayapti-ku" degan baho faqat birinchi qiymatni o'lchaydi.
+Sabab oddiy: dasturning qiymati faqat bugungi xatti-harakatida emas. Robert Martin (*Clean Architecture* kitobida) buni dasturning ikki qiymati deb ataydi: **xatti-harakat** (dastur hozir nima qiladi) va **struktura** (uni ertaga qanchalik oson o'zgartirish mumkin). Biznes talablari doimo o'zgaradi, demak ikkinchi qiymat vaqt o'tishi bilan birinchisidan muhimroq bo'lib boradi. "Ishlayapti-ku" degan baho faqat birinchi qiymatni o'lchaydi.
 
 Martin kitobining boshida mashhur hazilni keltiradi: kod sifatining yagona to'g'ri o'lchovi - code review paytida daqiqasiga aytilgan "WTF"lar soni. Hazil bo'lsa ham, unda muhim haqiqat bor: kod sifati kompyuter uchun emas, uni o'qiyotgan odam uchun o'lchanadi.
 
@@ -157,7 +157,7 @@ Bu savoldan bir nechta kuzatiladigan belgilar kelib chiqadi:
 
 ### O'qish va yozish nisbati
 
-Martin "We Are Authors" bo'limida muhim kuzatuvni keltiradi: yangi kod yozayotganda ham dasturchi vaqtining katta qismini mavjud kodni o'qishga sarflaydi. U bu nisbatni o'ndan birdan ancha yuqori deb baholaydi. Raqamning aniq qiymati munozarali (bu o'lchangan statistika emas, muallifning tajribaviy bahosi), lekin yo'nalishi bilan hamma kelishadi: o'qish yozishdan ko'p. Undan chiqadigan xulosa paradoksal ko'rinadi: **kodni tezroq yozish uchun uni o'qishni osonlashtirish kerak**.
+Martin "We Are Authors" bo'limida muhim kuzatuvni keltiradi: yangi kod yozayotganda ham dasturchi vaqtining katta qismini mavjud kodni o'qishga sarflaydi. U o'qish va yozish nisbatini 10 ga 1 dan ancha yuqori deb baholaydi. Raqamning aniq qiymati munozarali (bu o'lchangan statistika emas, muallifning tajribaviy bahosi), lekin yo'nalishi bilan hamma kelishadi: o'qish yozishdan ko'p. Undan chiqadigan xulosa paradoksal ko'rinadi: **kodni tezroq yozish uchun uni o'qishni osonlashtirish kerak**.
 
 ### Tozalik vosita, maqsad emas
 

@@ -317,10 +317,10 @@ export class PaymentReconciler {
 }
 ```
 
-Uchta bug, uchalasi ham `tsc` dan o'tadi:
+Uchta bug. Ulardan ikkitasi (`forEach(async ...)` va `await`siz `markPaid`) `tsc` dan jimgina o'tadi; ikkinchisini esa `strictNullChecks` yoqilgan zamonaviy TypeScript ham ushlaydi (TS2801: "bu Promise har doim aniqlangan"), lekin faqat to'g'ridan-to'g'ri shart ichida:
 
 1. `forEach(async ...)` - `reconcile` hamma to'lovlar tekshirilishidan oldin qaytadi. Cron job "tugadi" deb log yozadi, ish esa fonda davom etadi yoki process to'xtaganda uziladi. `no-misused-promises`.
-2. `if (this.gateway.isPaid(...))` - Promise har doim truthy, shuning uchun **har bir** pending to'lov "to'langan" deb belgilanadi. Bu moliyaviy xato. `no-misused-promises` (shart ichidagi Promise).
+2. `if (this.gateway.isPaid(...))` - Promise har doim truthy, shuning uchun **har bir** pending to'lov "to'langan" deb belgilanadi. Bu moliyaviy xato. `no-misused-promises` (shart ichidagi Promise) uni Promise o'zgaruvchiga olingan yoki `&&` ichida ishlatilgan holatlarda ham topadi.
 3. `this.repo.markPaid(...)` `await`siz - xato ushlanmaydi. `no-floating-promises`.
 
 Tuzatilgan versiya:

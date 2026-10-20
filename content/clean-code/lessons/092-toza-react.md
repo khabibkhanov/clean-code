@@ -348,7 +348,7 @@ Nima o'zgardi: to'rtta state o'rniga bitta (`kind`), chunki Thinking in React'ni
 - **Effekt to'g'ri bo'lgan joylar.** WebSocket'ga ulanish, xarita kutubxonasini (Leaflet, Mapbox) DOM elementiga biriktirish, `document.title` ni sinxronlash, komponent ko'rsatilganda analitika yuborish - bular tashqi tizim bilan sinxronlash va effekt aynan shu uchun mavjud. "Effektsiz" kodni dogma qilmang.
 - **Ataylab nusxalangan state.** Forma tahrirlash rejimida serverdan kelgan qiymatni boshlang'ich qiymat sifatida olib, keyingi server o'zgarishlarini e'tiborsiz qoldirish - bu to'g'ri. Faqat prop'ni `initialValue` deb nomlang.
 - **Normalizatsiya har doim kerak emas.** Ikki darajali, kam o'zgaradigan ma'lumot uchun id xaritalari va `childIds` ortiqcha murakkablik. Tekislash chuqur va tez-tez o'zgaradigan daraxtlar uchun.
-- **Komponentni haddan tashqari maydalash.** Har bir `<li>` uchun alohida fayl va props zanjiri 21-darsdagi "sayoz modul" muammosini UI'ga ko'chiradi. Komponent qayta ishlatilsa yoki o'zining mantig'i bo'lsa ajrating.
+- **Komponentni haddan tashqari maydalash.** Har bir `<li>` uchun alohida fayl va props zanjiri 52-darsdagi "sayoz modul" muammosini UI'ga ko'chiradi. Komponent qayta ishlatilsa yoki o'zining mantig'i bo'lsa ajrating.
 
 ## Stack'da: React 19, Next.js, testlar
 

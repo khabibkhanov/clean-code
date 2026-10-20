@@ -183,7 +183,7 @@ Bu darsda koddan tashqaridagi uchta hujjat turini ko'ramiz. Ularning har biri bo
 
 ### ADR: Nygard formati
 
-Michael Nygard 2011 yilda Cognitect blogida "Architecture Decision Record" g'oyasini taklif qildi. Uning asosiy kuzatuvi: katta arxitektura hujjatlari hech kim tomonidan yangilanmaydi va o'qilmaydi. Kichik, modulli hujjatlar esa yashaydi. U Agile metodlari hujjatga emas, qiymatsiz hujjatga qarshi ekanini ta'kidlaydi.
+Michael Nygard 2011 yilda Relevance (keyinchalik Cognitect) kompaniyasi blogida "Architecture Decision Record" g'oyasini taklif qildi. Uning asosiy kuzatuvi: katta arxitektura hujjatlari hech kim tomonidan yangilanmaydi va o'qilmaydi. Kichik, modulli hujjatlar esa yashaydi. U Agile metodlari hujjatga emas, qiymatsiz hujjatga qarshi ekanini ta'kidlaydi.
 
 ADR - bitta qaror haqida qisqa matn fayli, quyidagi bo'limlar bilan:
 

@@ -242,7 +242,7 @@ Fowler'ning qarashi bu modellarga boshqa o'lchov qo'shadi: testlar faqat xato to
 
 ## Misol: yoqilg'i o'g'irlanishini aniqlash
 
-Transport parki tizimida yoqilg'i datchigi (ДУТ) har daqiqada bak hajmini yuboradi. Agar mashina to'xtab turganda hajm qisqa vaqtda keskin tushsa, bu ehtimoliy o'g'irlik. Jamoa bu funksiyani faqat e2e test bilan tekshirgan:
+Transport parki tizimida yoqilg'i datchigi (DUT) har daqiqada bak hajmini yuboradi. Agar mashina to'xtab turganda hajm qisqa vaqtda keskin tushsa, bu ehtimoliy o'g'irlik. Jamoa bu funksiyani faqat e2e test bilan tekshirgan:
 
 ```ts
 // Yomon: hamma narsa bitta qimmat testda

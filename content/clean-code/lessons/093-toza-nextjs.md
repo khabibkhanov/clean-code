@@ -221,7 +221,7 @@ Next.js hujjatiga ko'ra, App Router'da layout va sahifalar standart holatda Serv
 - **Client Component** kerak, agar state va event handler'lar (`onClick`, `onChange`), lifecycle mantiq (`useEffect`), brauzer API'lari (`localStorage`, `window`, geolokatsiya) yoki custom hook'lar kerak bo'lsa.
 - **Server Component** kerak, agar ma'lumotni bazadan yoki API'dan manbaga yaqin joyda yuklash, API kalitlari va sirlarni client'ga ochmasdan ishlatish, brauzerga yuboriladigan JavaScript'ni kamaytirish kerak bo'lsa.
 
-Toza kod uchun bundan chiqadigan qoida: **client chegarasini imkon qadar tor va daraxtning barglariga yaqin qo'ying, server bilan client o'rtasidagi har bir o'tishni ataylab va minimal qiling.** Bu Ousterhoutning information hiding g'oyasining (43-dars) muhitlar darajasidagi ko'rinishi: client faqat o'ziga kerak narsani bilsin.
+Toza kod uchun bundan chiqadigan qoida: **client chegarasini imkon qadar tor va daraxtning barglariga yaqin qo'ying, server bilan client o'rtasidagi har bir o'tishni ataylab va minimal qiling.** Bu Parnas'ning information hiding g'oyasining (43-dars) muhitlar darajasidagi ko'rinishi: client faqat o'ziga kerak narsani bilsin.
 
 ## Chuqurroq: chegaraning mexanikasi
 

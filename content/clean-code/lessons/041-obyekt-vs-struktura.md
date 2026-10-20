@@ -100,7 +100,7 @@ task:
     }
 
     // boshqa joyda:
-    // vehicle.fuelLiters = sensorValue; // ДУТ datchigidan
+    // vehicle.fuelLiters = sensorValue; // DUT datchigidan
   solution: |
     const LOW_FUEL_PERCENT = 15;
 

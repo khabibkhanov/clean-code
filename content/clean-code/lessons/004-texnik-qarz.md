@@ -28,7 +28,7 @@ quiz:
       - "Bu qarz emas, chunki ongli qaror qabul qilinmagan"
     answer: 2
     explain: "Jamoa yaxshi dizaynni bilmaydi (inadvertent) va natija beparvo (reckless). Fowler buni ham qarz deb hisoblaydi. Oxirgi variant Martin'ning pozitsiyasiga yaqin, lekin Fowler unga qo'shilmaydi: uning uchun metafora tartibsizlik haqida gaplashishga ham yordam beradi."
-  - q: "Fowler bo'yicha ichki sifat (internal quality) nega tashqi sifatdan farqli o'laroq \"savdolashib bo'lmaydigan\" narsa emas, lekin baribir arzon?"
+  - q: "Fowler bo'yicha nega ichki sifat (internal quality) uchun tashqi sifatdagi kabi oddiy \"sifat yoki narx\" savdosi ishlamaydi?"
     options:
       - "Chunki foydalanuvchilar ichki sifatni ko'radi va u uchun pul to'laydi"
       - "Chunki ichki sifat faqat katta kompaniyalar uchun muhim"
