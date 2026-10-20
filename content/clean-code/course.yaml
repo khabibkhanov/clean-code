@@ -121,7 +121,7 @@ modules:
       - { n: 85, slug: paket-tamoyillari, title: "Komponent tamoyillari: ADP, SDP, SAP", sources: [clean-arch, dependency-cruiser] }
       - { n: 86, slug: konfiguratsiya, title: "Konfiguratsiya va muhit: validatsiyalangan config", sources: [twelve-factor-config, zod-docs] }
       - { n: 87, slug: concurrency, title: "JS'da toza concurrency: race, idempotentlik", sources: [cc1, cc2, mdn-abortcontroller] }
-      - { n: 88, slug: logging, title: "Toza logging: strukturali loglar va darajalar", sources: [pino, twelve-factor-config] }
+      - { n: 88, slug: logging, title: "Toza logging: strukturali loglar va darajalar", sources: [pino, twelve-factor-logs, twelve-factor-config] }
       - { n: 89, slug: api-dizayn, title: "API tozaligi: DTO, nomlash, xato formati", sources: [rfc-9457, nestjs-docs] }
       - { n: 90, slug: ortiqcha-arxitektura, title: "Ortiqcha arxitektura xavfi", sources: [fowler-yagni, fowler-microservice-premium, aposd] }
   - n: 10

@@ -326,6 +326,12 @@ twelve-factor-config:
   year: 2011
   kind: web
   url: https://12factor.net/config
+twelve-factor-logs:
+  title: "The Twelve-Factor App: XI. Logs"
+  author: Adam Wiggins
+  year: 2011
+  kind: web
+  url: https://12factor.net/logs
 rfc-9457:
   title: "RFC 9457: Problem Details for HTTP APIs"
   author: IETF
