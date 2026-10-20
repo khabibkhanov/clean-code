@@ -177,7 +177,7 @@ Teskari amal: funksiya chaqiruvini uning tanasi bilan almashtirish va funksiyani
 
 Fowler inline uchun ikki asosiy motivni keltiradi. Birinchisi: funksiya tanasi uning nomidek aniq, demak bilvositalik (indirection) hech narsa bermaydi va faqat sakrash qo'shadi. Ikkinchisi: kod yomon bo'lingan, funksiyalar chalkashgan. Bunday holda ularni avval bitta katta funksiyaga inline qilib, keyin to'g'ri chegaralar bo'yicha qayta extract qilish oson.
 
-Ikkala refaktoringning birga mavjudligi muhim xabar beradi: **bo'lish qaytariladigan qaror**. Martin munozarada (21-dars) aynan shuni aytgan edi: noto'g'ri ajratilgan funksiyani har doim inline qilish mumkin. Ousterhout esa bunga amalda kam odam qaytishini javob qilgan. Bu darsning maqsadi - inline qilishni ham extract kabi oddiy va odatiy amalga aylantirish.
+Ikkala refaktoringning birga mavjudligi muhim xabar beradi: **bo'lish qaytariladigan qaror**. Martin munozarada (21-dars) aynan shuni aytgan edi: noto'g'ri ajratilgan funksiyani har doim inline qilish mumkin. Lekin amalda bunday inline'ga kamdan-kam qaytiladi (bu muallifning bahosi). Bu darsning maqsadi - inline qilishni ham extract kabi oddiy va odatiy amalga aylantirish.
 
 ## Chuqurroq: mexanika
 

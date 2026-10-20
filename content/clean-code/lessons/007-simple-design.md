@@ -188,7 +188,7 @@ Muhim nozik nuqta: to'rtinchi qoida "eng kam qator" yoki "eng kam fayl" emas. Ag
 
 ### Emergent dizayn va uning chegarasi
 
-Kitobning "Emergence" bobi bu qoidalarni dizaynning **yetarli** sharti sifatida taqdim etadi: ularga amal qilsangiz, yaxshi dizayn paydo bo'ladi. Bu XP falsafasining markaziy g'oyasi: katta oldindan loyihalash (Big Design Up Front) o'rniga kichik qadamlar va doimiy refaktoring.
+Kitobning "Emergence" bobi bu qoidalarni yaxshi dizayn paydo bo'lishiga yordam beradigan oddiy qoidalar sifatida taqdim etadi: ularga doimiy amal qilsangiz, yaxshi dizayn asta-sekin "paydo bo'ladi". Bu XP falsafasining markaziy g'oyasi: katta oldindan loyihalash (Big Design Up Front) o'rniga kichik qadamlar va doimiy refaktoring.
 
 Bu g'oya munozarali. John Ousterhout (5-darsda ko'rganimizdek) oldindan dizayn haqida o'ylashga ko'proq vazn beradi va TDD kabi kichik qadamli usullar ba'zan taktik dasturlashga olib kelishini aytadi (65-dars). Ikkala tomon ham dizayn muhimligiga qo'shiladi. Farq qachon va qancha o'ylashda: Beck va Martin kichik qadamlarda doimiy, Ousterhout esa modul interfeyslarini oldindan chuqurroq o'ylashni qo'llaydi.
 

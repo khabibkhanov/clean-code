@@ -261,7 +261,7 @@ MDN ikki muhim tafsilotni ta'kidlaydi:
 - **`cause` har qanday tipda bo'lishi mumkin.** Uni o'qiganda `Error` deb faraz qilmang, xuddi catch'dagi o'zgaruvchi kabi.
 - **Strukturali ma'lumot uchun ham ishlatish mumkin.** MDN misolida xato xabari o'zgarishi mumkinligi va uni parse qilish xavfli ekanligi aytiladi, shuning uchun `cause`ga `{ code, values }` kabi mashina o'qiydigan ma'lumot qo'yiladi. Lekin custom klassda alohida maydonlar ochiqroq (pastda).
 
-Ko'p loggerlar (masalan, pino'ning standart error serializer'i) `cause` zanjirini ham chiqaradi, shuning uchun uni to'ldirish arzon va foydasi katta.
+Ba'zi loggerlar va monitoring vositalari (masalan, pino'ning error serializer'lari yoki Sentry) `cause` zanjirini ham ko'rsata oladi; aniq xatti-harakatni o'z versiyangiz hujjatidan tekshiring. Uni to'ldirish arzon va foydasi katta.
 
 ### TypeScript'da custom xato klasslari
 

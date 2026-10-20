@@ -170,7 +170,7 @@ Ularning hech biri "kod sifati muhim emas" demaydi. Hammasi bir xil maqsadni - t
 
 ### Ousterhout va Martin: yozma munozara
 
-John Ousterhout va Robert Martin 2024 yil sentyabridan 2025 yil fevraligacha onlayn va yuzma-yuz suhbatlar o'tkazgan va ularni GitHub'da yozma dialog sifatida e'lon qilgan. Bu tanqidlar ichida eng qimmatlisi, chunki unda ikkala tomon ham o'z so'zlari bilan qatnashadi. Uchta mavzu muhokama qilingan.
+John Ousterhout va Robert Martin 2024 yil sentyabridan 2025 yil fevraligacha onlayn va yuzma-yuz suhbatlar o'tkazgan va ularni GitHub'da yozma dialog sifatida e'lon qilgan. Bu tanqidlar ichida eng qimmatlisi, chunki unda ikkala tomon ham o'z so'zlari bilan qatnashadi. Asosiy mavzular quyidagilar.
 
 **Metod uzunligi.** Ousterhout uchun dekompozitsiya "chuqur" modullar yaratganda foydali (52-dars): oddiy interfeys ortida ko'p funksionallik. Haddan tashqari maydalash sayoz interfeyslar va bir-biriga chambarchas bog'langan (entangled) metodlar beradi, ularni alohida tushunib bo'lmaydi. U Clean Code'ning "One Thing" qoidasi va qisqa metodlar haqidagi maslahatida to'xtash nuqtasi yo'qligini tanqid qiladi. Martin esa juda kichik, yaxshi nomlangan metodlarni afzal ko'radi va dekompozitsiya tomoniga xato qilishni ma'qul biladi, chunki keraksiz metodni keyin inline qilish oson. Ular kelishgan nuqtalar: modulli dizayn qimmatli, over-decomposition mumkin, birinchi nashr uni tanib olish bo'yicha kam yo'l-yo'riq beradi. Kelishmagan nuqtalar: qanchalik maydalash kerak va "One Thing" qanchalik ishlaydi.
 
